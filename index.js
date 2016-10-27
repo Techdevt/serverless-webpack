@@ -122,8 +122,7 @@ class ServerlessWebpack {
         .then(this.compile),
       
       'before:offline:start': () => BbPromise.bind(this)
-        .then(this.validate)
-        .then(this.compile),
+        .then(this.validate),
     };
   }
 }

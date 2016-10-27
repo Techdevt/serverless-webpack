@@ -29,11 +29,11 @@
   "dependencies": {
     "bluebird": "^3.4.0",
     "body-parser": "^1.15.2",
+    "compression": "^1.6.1",
     "express": "^4.14.0",
     "fs-extra": "^0.26.7",
     "npm-programmatic": "0.0.5",
-    "webpack": "^1.13.1",
-    "webpack-dev-server": "git+https://github.com/Techdevt/webpack-dev-server.git"
+    "webpack": "^1.13.1"
   },
   "devDependencies": {
     "chai": "^3.5.0",
