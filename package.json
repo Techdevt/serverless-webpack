@@ -32,7 +32,8 @@
     "express": "^4.14.0",
     "fs-extra": "^0.26.7",
     "npm-programmatic": "0.0.5",
-    "webpack": "^1.13.1"
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "git+https://github.com/Techdevt/webpack-dev-server.git"
   },
   "devDependencies": {
     "chai": "^3.5.0",
