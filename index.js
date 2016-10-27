@@ -119,7 +119,8 @@ class ServerlessWebpack {
         .then(this.serve),
       'before:offline:start:init': () => BbPromise.bind(this)
         .then(this.validate)
-        .then(this.compile),
+        .then(this.compile)
+        .then(out => this.serverless.cli.consoleLog(out)),
       
       'before:offline:start': () => BbPromise.bind(this)
         .then(this.validate)
